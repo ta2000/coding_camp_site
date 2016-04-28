@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forest Heights Coding Class</title>
+        <!-- Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- Google Font (title) -->
+        <link href='https://fonts.googleapis.com/css?family=Kreon' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div id="header">
+            <p>FOREST HEIGHTS WEB DEVELOPMENT CLASS 2016</p>
+        </div>
+
+        <div id="selection-container">
+                <div class="selection" onclick="window.location='staff.html'">
+                    <p class="selectionText">Staff</p>
+                </div>
+                <div class="selection" onclick="window.location='location.html'">
+                    <p class="selectionText">Location</p>
+                </div>
+                <div class="selection" onclick="window.location='classes.html'">
+                    <p class="selectionText">Classes</p>
+                </div>
+                <div class="selection" id="selection-active" onclick="window.location='release_form.html'">
+                    <p class="selectionText">Release Form</p>
+                </div>
+                <div class="selection" onclick="window.location='payment.html'">
+                    <p class="selectionText">Payment</p>
+                </div>
+                <div class="selection" onclick="window.location='contact.html'">
+                    <p class="selectionText">Contact</p>
+                </div>
+        </div>
+
+        <div id="content">
+            <table>
+                <tr class="table-title"> <td colspan="3">
+                    Payment<br>
+                    <span class="table-description">
+                        The following is a release form in pdf format. Please
+                        print it, fill it out, and bring it to the first class.
+                    </span><hr>
+                </td> </tr>
+                <tr>
+                    <td class="table-label" style="text-align:center;">
+                        <a href="release_form.pdf" download>release_form.pdf</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

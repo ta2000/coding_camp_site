@@ -1,0 +1,114 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+    background-color: #F8F8FF;
+}
+
+a:visited {
+    color: #0000FF;
+}
+
+#content {
+    margin-top: 2.5%;
+    margin-left: 2.5%;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    font-family: 'Kreon', serif;
+    font-size: 48px;
+}
+
+#selection-container {
+    background-color: #1a0d00;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    text-align: center;
+    width: 95%;
+    height: 50px;
+}
+.selection {
+    text-align: center;
+    display: inline-block;
+    min-width: 100px;
+    height: 80%;
+    line-height: 80%;
+    margin: auto 10px;
+    /* Hover transition */
+    border-bottom: thick solid;
+    border-color: transparent;
+    transition-property: border-color;
+    transition-duration: .4s;
+}
+.selection:hover, #selection-active {
+    border-color: #FFFFFF;
+    cursor: pointer;
+}
+.selectionText {
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+hr {
+    margin-bottom: 0px;
+}
+
+.day {
+    color: #005500;
+}
+
+table {
+    border: 5px solid #AAAAAA;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    width: 50%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+td {
+    padding: 10px;
+    line-height: 30px;
+    vertical-align: top;
+}
+
+.table-title {
+    text-align: center;
+    font-size: 32px;
+}
+.table-text {
+    font-size: 24px;
+}
+.table-label {
+    font-size: 24px;
+    vertical-align: middle;
+    width: 25%;
+}
+.table-info {
+    font-size: 16px;
+    width: 90%;
+}
+.table-img {
+    text-align: center;
+    border: 2px solid #003300;
+    background-color: #E6E6EC;
+}
+img {
+    height: 25%;
+}
+.table-description {
+    font-size: 16px;
+    font-style: italic;
+    color: #0000FF;
+    text-align: center;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}

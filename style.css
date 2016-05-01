@@ -90,6 +90,7 @@ td {
     font-size: 24px;
     vertical-align: middle;
     width: 25%;
+    padding: 20px;
 }
 .table-info {
     font-size: 16px;
@@ -111,4 +112,15 @@ img {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
+}
+
+li {
+    padding: 2px;
+}
+
+iframe {
+    background-color: #DDDDDD;
+    border: 5px solid #AAAAAA;
+    width: 90%;
+    height: 500px;
 }

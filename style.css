@@ -129,3 +129,11 @@ iframe {
     width: 90%;
     height: 500px;
 }
+
+.quote {
+    font-size: 18px;
+    font-style: italic;
+}
+.quote-source {
+    text-align: right;
+}

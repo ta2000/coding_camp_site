@@ -29,13 +29,13 @@ a:visited {
     border-radius: 3px;
     text-align: center;
     width: 95%;
-    height: 50px;
+    padding: 10px;
 }
 .selection {
     text-align: center;
     display: inline-block;
     min-width: 100px;
-    height: 80%;
+    height: 40px;
     line-height: 80%;
     margin: auto 10px;
     /* Hover transition */
@@ -136,4 +136,5 @@ iframe {
 }
 .quote-source {
     text-align: right;
+    font-style: normal;
 }
